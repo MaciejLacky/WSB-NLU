@@ -20,7 +20,7 @@ body{
 }
 /* Main menu overlay style */
 
-.openNav{
+.openNav-page{
     font-size:2rem;
     width: 2.5rem;
     cursor:pointer; 
@@ -34,7 +34,7 @@ body{
     padding-bottom: 3px;
     transition: 0.5s;
 }
-.openNav:hover{
+.openNav-page:hover{
   background-color:rgba(0,0,0,0.0); 
   width: 3.0rem;
  border: solid 5px white;
@@ -45,7 +45,7 @@ body{
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1250px) {
-  .openNav  {
+  .openNav-page  {
     padding-left: 13px;
     font-size: 1.5rem;
     width: 2rem;
@@ -53,14 +53,14 @@ body{
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1250px) {
-  .openNav:hover  {
+  .openNav-page:hover  {
     padding-left: 8px;
     font-size: 1.7rem;
     width: 2rem;
    
   }
 }
-.overlay {
+.overlay-page {
     height: 0%;
     width: 100%;
     position: fixed;
@@ -250,6 +250,7 @@ body{
     
   }
 
+  /*Start technology page*/
 
   #navbar {
     overflow: hidden;
@@ -481,14 +482,14 @@ body{
         height: 45vh;
     }
   }
-.content{
+.content-top{
    
     position: relative;
     background-color:#f3f3f9;
     padding-left: 10px;
     
 }
-.content h2{
+.content-top h2{
     padding-left: 10px;
     color: #203866;
     font-family: 'ArchivoFont';
@@ -501,7 +502,7 @@ body{
         line-height: 1.5rem;
     }
   }
-.content h3{
+.content-top h3{
     padding-left: 30px;
     width: 40%;
     color: black;
@@ -515,7 +516,7 @@ body{
         width:90%;
     }
   }
-.content button{
+.content-top button{
     
     margin-bottom: 3vh;
     margin-left: 30px;
@@ -535,20 +536,20 @@ body{
     cursor: pointer;
 }
 @media only screen  and (max-width: 1300px) {
-    .content button {
+    .content-top button {
        font-size: 1.2rem;
        width: 18rem;
        height: 4rem;
     }
   }
-.content button:hover{
+.content-top button:hover{
    
     color: white;
     background-color:#203866; 
     font-size: 1.7rem;  
 }
 @media only screen  and (max-width: 1300px) {
-    .content button:hover {
+    .content-top button:hover {
        font-size: 1.4rem;
        
     }
@@ -559,7 +560,7 @@ body{
     
 }
 /* Cards with image*/
-.cards {
+.cards-tech {
 
     padding-top: 2%;
      padding-left: 4%;
@@ -577,7 +578,7 @@ body{
    }
  
    @media only screen and (max-width: 1024px) {
-     .cards {
+     .cards-tech {
        padding-top: 2%;
      padding-left: 2%;
      width: calc(100% - 2em);
@@ -597,7 +598,7 @@ body{
 
  
    
-   .card {
+   .card-tech {
      width: 100%;
      margin-left: 5vw;
      margin-top: 10vh;
@@ -797,7 +798,7 @@ body{
 
 
 /*Section footer*/
-  .section-four-bottom-dark{
+  .section-four-bottom-dark-page{
     position: absolute;
     width: 100vw;
     height: 20vh;
@@ -806,28 +807,28 @@ body{
     z-index: 0;
     background: #203866;
   }
-  
-  .footers-ul{
+  /*End technology page*/
+  .footers-ul-page{
     float: left;
     list-style-type:none;
     line-height: 0.8rem;
   }
-  .footers-ul li{
+  .footers-ul-page li{
     margin: 14px;
   }
-  .footers-ul li a{
+  .footers-ul-page li a{
     text-decoration: none;
     font-weight: bold;
     color: white;
   }
-  .footer-section{
+  .footer-section-page{
     position: absolute;
     width: 100vw;
     height: 7vh;
     margin-top: 38vh;
     background-color:  #203866;
   }
-  .footer-section p{
+  .footer-section-page p{
     font-size: 0.9rem;
     color: white;
     text-align: center;

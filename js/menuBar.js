@@ -1,10 +1,10 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
 if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-document.getElementById("navbar").style.padding = "2px 10px";
-document.getElementById("logo").style.width = "16%";
+//document.getElementById("navbar").style.padding = "2px 10px";
+document.getElementById("logo").className='logoResize';
 } else {
-document.getElementById("navbar").style.padding = "10px 10px";
-document.getElementById("logo").style.width = "18%";
+//document.getElementById("navbar").style.padding = "10px 10px";
+document.getElementById("logo").className='stndLogoSize';
 }
 }

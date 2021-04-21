@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>  
-    <link rel="stylesheet" href="/css/style-technology.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -61,6 +61,32 @@
                 <a  href="#">Transfer z innej uczelni</a>
                 <a  href="#">ERASMUS+</a>
               </div>
+              <button class="accordion add-menuResp" href="#">O nas <i class="fa fa-caret-down"></i></button>
+          <div class="panel">
+            <a href="#">O uczelni</a>
+            <a href="#">Władze</a>
+            <a href="#">Absolwenci</a>           
+            <a href="#">Biblioteka</a>
+            <a href="#">Kariera</a>
+            <a href="#">Kontakt</a>
+          </div>
+          <button class="accordion add-menuResp" href="#">Wydarzenia <i class="fa fa-caret-down"></i></button>
+          <div class="panel">
+            <a href="#">Wydarzenia</a>
+            <a href="#">Dziecięcy uniwersytet</a>
+            <a href="#">Run 4aSmile</a>
+            <a href="#">Potęga informatyki</a>
+            <a href="#">International cooking day</a>
+            <a href="#">ItSec 4You</a>
+            <a href="#">Postaw na przedsiębiorczość</a>
+          </div>
+          <button class="accordion add-menuResp" href="#">Instytuty <i class="fa fa-caret-down"></i></button>
+          <div class="panel">
+            <a href="#">Centrum Badań i Programowania</a>
+            <a href="#">Instytut Badań i Komercjalizacji</a>
+            <a href="#">Instytut Diagnostyki, Opiniodastwa i Pomocy Psychologicznej</a>
+            <a href="#">UWE</a>
+          </div>
               <button class="accordion" href="#">Zaloguj w CloudA </button>
               <div class="social-section-menu">
                 <a href="#" class="fa fa-facebook"></a>
@@ -75,16 +101,16 @@
         </div> 
     </nav>
     <div id="navbar">
-        <a href="index.html" > <img id="logo"  src="/img/wsblogo2.png"></a>
+        <a href="index.html" > <img id="logo" class="logoSize" src="/img/wsblogo2.png"></a>
         <div id="navbar-right">
-            <span class="openNav seq" onclick="openNav()">&#9776</span> 
+            <span class="openNav-page seq" onclick="openNav()">&#9776</span> 
         </div>
     </div>
     <div class="container-img-top">
         <img src="/img/abstract-grey.jpg" alt="concrete-wall">       
         <div class="text-block-img-top">
           <h2>Informatyka</h2>
-          <h3>Programowanie aplikacji biznesowych</h3>
+          <h3>Programowanie aplikacji <br/> biznesowych</h3>
           <p>Studia pierwszego stopnia (inżynierskie)</p>
           <img class="img-top" src="/img/informatyka.jpg" alt="programowanie-aplikacji">
           <div class="img-decoration"></div>
@@ -165,7 +191,7 @@
 </div>
 </div>
 <div class="img-main-content">   
-    <div class="content">
+    <div class="content-top">
       <img src="/img/programista-aplikacji-biznesowych.webp">    
         <h2>Dlaczego warto <br/>studiować u nas?</h2>
         <h3>Studia informatyczne realizowane są w 1/3 za pomocą innowacyjnej metody Project-Base Learning, czyli zarządzaniem przez projekt.</h3>
@@ -174,27 +200,27 @@
 </div>
 <div style="clear: both;"></div>
 <div class="other-studies">
-    <div class="cards">
-        <div class="card content">
-          <div class="card-content">
-            <div class="card-img">
+    <div class="cards-tech">
+        <div class="card-tech content">
+          <div class="card-tech-content">
+            <div class="card-tech-img">
               <img src="/img/intro1.webp" alt="game-developer">
             </div>
-            <div class="card-label">Katalog kursów</div>
-            <div class="card-title">
+            <div class="card-tech-label">Katalog kursów</div>
+            <div class="card-tech-title">
                 Sprawdź naszą pozostałą ofertę studiów.
             </div>
           </div>
         </div>
-        <div class="card content">
-          <div class="card-content">
-            <div class="card-img">
+        <div class="card-tech content">
+          <div class="card-tech-content">
+            <div class="card-tech-img">
               <img src="/img/Clouda.jpg" alt="cyberbezpieczenstwo">
             </div>
-            <div class="card-label">
+            <div class="card-tech-label">
               Studia online
             </div>
-            <div class="card-title">
+            <div class="card-tech-title">
                 Nawet nie musisz wychodzić z domu! Zobacz jak działa nasz innowacyjny system nauczania online.
             </div>
           </div>
@@ -211,37 +237,32 @@
 </div>
 </div> 
 <footer>
-  <div class="section-footer">
-    <div class="bottom-section-four">              
-      <div class="section-four-bottom-dark" >                
-        <ul class="footers-ul">
-          <li><a data-href="https://www.nl.edu/" href="https://www.nl.edu/" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">National Louis University </a></li>
-          <li><a data-href="/centrum-rekreacji-olimp-wsb-nlu" href="/centrum-rekreacji-olimp-wsb-nlu" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Centrum Rekreacyjne "OLIMP"</a></li>
-          <li><a data-href="https://biblioteka.wsb-nlu.edu.pl/" href="https://biblioteka.wsb-nlu.edu.pl/" class="grey-text text-lighten-3 pointer sekcjaLink">Biblioteka</a></li>
-          <li><a data-href="http://repozytorium.wsb-nlu.edu.pl/" href="http://repozytorium.wsb-nlu.edu.pl/" class="grey-text text-lighten-3 pointer sekcjaLink">Repozytorium WSB-NLU</a></li>
-          <li><a data-href="http://vaks.pl/enova" href="http://vaks.pl/enova" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Enova - partner uczelni</a></li>      
-        </ul>
-        <ul class="footers-ul">    
-          <li><a data-href="/skeo" href="/skeo" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Sądecki Klaster Energii Odnawialnej</a></li>
-          <li><a data-href="/prywatnosc" href="/prywatnosc" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Polityka prywatności</a></li>
-          <li><a data-href="/klauzula-informacyjna-rodo" href="/klauzula-informacyjna-rodo" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Klauzula informacyjna - RODO</a></li>
-          <li><a data-href="/klauzula-informacyjna-rodo-ibik" href="/klauzula-informacyjna-rodo-ibik" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Klauzula informacyjna - RODO IBIK</a></li>
-          <li><a data-href="https://wsb-nlu.bip.gov.pl/" href="https://wsb-nlu.bip.gov.pl/" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Biuletyn Informacji Publicznej WSB-NLU</a></li>
-        </ul>
-        <div class="social-section">
-          <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-linkedin"></a>
-          <a href="#" class="fa fa-youtube"></a>
-          <a href="#" class="fa fa-instagram"></a>
-        </div>
-      </div>
-      <div class="footer-section">
-          <p>© 2021 WYŻSZA SZKOŁA BIZNESU - NATIONAL LOUIS UNIVERSITY <br/>  
-            ul. Zielona 27, 33-300 Nowy Sącz, Małopolska, tel. +48 18 44 99 100, NIP: 734-10-03-635</p>
-      </div>
+  <div class="section-four-bottom-dark-page" >                
+    <ul class="footers-ul-page">
+      <li><a data-href="https://www.nl.edu/" href="https://www.nl.edu/" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">National Louis University </a></li>
+      <li><a data-href="/centrum-rekreacji-olimp-wsb-nlu" href="/centrum-rekreacji-olimp-wsb-nlu" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Centrum Rekreacyjne "OLIMP"</a></li>
+      <li><a data-href="https://biblioteka.wsb-nlu.edu.pl/" href="https://biblioteka.wsb-nlu.edu.pl/" class="grey-text text-lighten-3 pointer sekcjaLink">Biblioteka</a></li>
+      <li><a data-href="http://repozytorium.wsb-nlu.edu.pl/" href="http://repozytorium.wsb-nlu.edu.pl/" class="grey-text text-lighten-3 pointer sekcjaLink">Repozytorium WSB-NLU</a></li>
+      <li><a data-href="http://vaks.pl/enova" href="http://vaks.pl/enova" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Enova - partner uczelni</a></li>      
+    </ul>
+    <ul class="footers-ul-page">    
+      <li><a data-href="/skeo" href="/skeo" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Sądecki Klaster Energii Odnawialnej</a></li>
+      <li><a data-href="/prywatnosc" href="/prywatnosc" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Polityka prywatności</a></li>
+      <li><a data-href="/klauzula-informacyjna-rodo" href="/klauzula-informacyjna-rodo" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Klauzula informacyjna - RODO</a></li>
+      <li><a data-href="/klauzula-informacyjna-rodo-ibik" href="/klauzula-informacyjna-rodo-ibik" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Klauzula informacyjna - RODO IBIK</a></li>
+      <li><a data-href="https://wsb-nlu.bip.gov.pl/" href="https://wsb-nlu.bip.gov.pl/" rel="nofollow" class="grey-text text-lighten-3 pointer sekcjaLink">Biuletyn Informacji Publicznej WSB-NLU</a></li>
+    </ul>
+    <div class="social-section">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
     </div>
-  </div>    
-</div> 
+  </div>
+  <div class="footer-section-page">
+      <p>© 2021 WYŻSZA SZKOŁA BIZNESU - NATIONAL LOUIS UNIVERSITY <br/>  
+        ul. Zielona 27, 33-300 Nowy Sącz, Małopolska, tel. +48 18 44 99 100, NIP: 734-10-03-635</p>
+  </div>                
 </footer> 
   <script src="/js/toggleIconMenu.js"></script>     
   <script src="/js/tabCards.js"></script>
